@@ -14,10 +14,7 @@ public class PlayerNameUI : MonoBehaviour
 
     private void Start()
     {
-        //PlayerName = GetComponent<TMP_Text>();
-        //EnterName = GetComponent<TMP_InputField>();
-        Debug.Log(PlayerName.text);
-        Debug.Log(EnterName.text);
+
     }
 
     private void Update()
