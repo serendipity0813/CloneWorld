@@ -19,10 +19,10 @@ public class TimeUI : MonoBehaviour
     public void GetCurrentDate()
     {
         string MonthAndDay = DateTime.Now.ToString(("MM월 dd일"));
-        DayTxt.text = "날짜 : " + MonthAndDay;
+        DayTxt.text = " " + MonthAndDay;
 
         string DayTime = DateTime.Now.ToString("t");
-        TimeTxt.text = "시간 : " + DayTime;
+        TimeTxt.text = " " + DayTime;
     }
 
 }
