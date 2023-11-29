@@ -2895,8 +2895,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u2193\u2193\u2193 \uC9C0\uAE08 \uBC14\uB85C \uC791\uC131\uD558\uAE30
-    \u2193\u2193\u2193"
+  m_Text: "\uD074\uB9AC\uC5B4...\uD574\uC8FC\uC2E4\uAC70\uC8E0?"
 --- !u!222 &328229381
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2976,7 +2975,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u2605\u2605\uAC1C\uC778 \uC131\uC7A5@\uC989.\uC2DC.\uBCF4.\uC7A5@"
+  m_Text: "\uD53C\uB4DC\uBC31 \uB300\uC2E0 \uC900\uBE44\uD574 \uBCF4\uC558\uC2B5\uB2C8\uB2E4."
 --- !u!222 &329978250
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4379,8 +4378,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u265C\uC57C\uBB34\uC9C4 \uD3EC\uD2B8\uD3F4\uB9AC\uC624\u265C\uC131\uCDE8\uAC10
-    \uBB34\uB8CC \uC99D\uC815\uFFE5\r"
+  m_Text: "\uC5F4\uC2EC\uD788 \uB178\uB825\uD558\uC2E0 \uC5EC\uB7EC\uBD84\uC744 \uC704\uD574"
 --- !u!222 &581055178
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6270,7 +6268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC6B0\uC218 TIL \uC120\uC815\uC2DC$$\uAC1C\uC778 \uD53C\uB4DC\uBC31\u261C\u261C100%\uC99D\uC815\u203B\r\n"
+  m_Text: "\uC5C4\uCCAD \uACE0\uC0DD \uB9CE\uC774\uD558\uC168\uC2B5\uB2C8\uB2E4."
 --- !u!222 &842192102
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6350,7 +6348,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC790\uC720 \uC591\uC2DD \xA7\xA7\xA7\xA7\r"
+  m_Text: "\uC800\uB3C4 \uC7AC\uBBF8\uC788\uB294 \uAC8C\uC784\uC744 \uD558\uB098"
 --- !u!222 &848725882
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14769,10 +14767,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1297858551}
-        m_TargetAssemblyTypeName: TILlink, Assembly-CSharp
-        m_MethodName: TILButton
-        m_Mode: 1
+      - m_Target: {fileID: 1297858549}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -17239,7 +17237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "TIL \uC791\uC131\uD558\uAE30"
+  m_Text: Game Start
 --- !u!222 &1712910496
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22480,7 +22478,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u265A\u265A\uC624\uB298\uC758 TIL \uC791\u2606\uC131\u265A\u265A\r\n"
+  m_Text: "\uAC1C\uC778\uACFC\uC81C \uC81C\uCD9C\uD558\uC2DC\uB290\uB77C\n"
 --- !u!222 &2044644366
 CanvasRenderer:
   m_ObjectHideFlags: 0
