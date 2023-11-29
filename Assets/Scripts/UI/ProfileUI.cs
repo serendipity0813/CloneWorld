@@ -9,6 +9,7 @@ public class PlayerNameUI : MonoBehaviour
     public TMP_Text PlayerName;
     public TMP_InputField EnterName;
     public GameObject Profile;
+    public Text MyTxt;
     private string text;
 
 
@@ -38,6 +39,7 @@ public class PlayerNameUI : MonoBehaviour
     {
         // 입력받은 텍스트를 변수에 할당
         PlayerName.text = EnterName.text;
+        MyTxt.text = EnterName.text;
     }
 
 
