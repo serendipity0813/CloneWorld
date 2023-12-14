@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.TextCore.Text;
 
 public class AnimationController : MonoBehaviour
@@ -15,14 +16,16 @@ public class AnimationController : MonoBehaviour
     public Sprite idle4;
 
     public GameObject MyCharacter;
+    //public Image MyImage;
     public SpriteRenderer player; // 스프라이트 렌더러 선언
-
+    //Image thisimage;
 
 
     // Start is called before the first frame update
     void Start()
     {
         player = MyCharacter.GetComponent<SpriteRenderer>();
+        //thisimage = MyImage.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -76,6 +79,7 @@ public class AnimationController : MonoBehaviour
         Character.SetBool("player2", false);
         Character.SetBool("player3", false);
         Character.SetBool("player4", false);
+        //thisimage.sprite = idle;
         player.sprite = idle;
         UI.SetActive(false);
 
@@ -87,6 +91,7 @@ public class AnimationController : MonoBehaviour
         Character.SetBool("player2", true);
         Character.SetBool("player3", false);
         Character.SetBool("player4", false);
+        //thisimage.sprite = idle2;
         player.sprite = idle2;
         UI.SetActive(false);
 
@@ -98,6 +103,7 @@ public class AnimationController : MonoBehaviour
         Character.SetBool("player2", false);
         Character.SetBool("player3", true);
         Character.SetBool("player4", false);
+        //thisimage.sprite = idle3;
         player.sprite = idle3;
         UI.SetActive(false);
 
@@ -109,6 +115,7 @@ public class AnimationController : MonoBehaviour
         Character.SetBool("player2", false);
         Character.SetBool("player3", false);
         Character.SetBool("player4", true);
+        //thisimage.sprite = idle4;
         player.sprite = idle4;
         UI.SetActive(false);
 
